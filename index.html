@@ -87,19 +87,19 @@
             </h2>
             <p class="lead">Are you <span class="text-muted">aged 15 to 18</span> and interest in a career in software development? Join us for a 4 day experience at Redruth, working in a software development team on an exciting project.</p>
 			<p class="lead">Whatever your level of experience our team of mentors are there to support and help you, giving you a taste of what a career in Software Development is like.</p>
-			<p class="lead">If you are already a Star Coder, that's great and we will use your skills and help prepare you from your first software development job.</p>
-			<p class="lead">If you have never write any software before, don't worry, that's great too.  We'll show you how it's done and get you started on your journey to becoming a Coding Super Hero</p> 
+			<p class="lead">If you are already a Star Coder, that's great and we will use your skills and help prepare you for your first software development job.</p>
+			<p class="lead">If you have never written any software before, don't worry, that's great too.  We'll show you how it's done and get you started on your journey to becoming a Coding Super Hero</p> 
 		</div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="project">
-            <img class="featurette-image img-responsive " src="./images/Bert-and-Ernie.jpg">
             <h2 class="featurette-heading"><span style="color:red">> </span>The Project 
                 <span class="text-muted">Mission to Mars</span>
             </h2>
             <p class="lead">Meet our Robots, <span class="text-muted">Bert and Ernie</span>. Your task will be to write the software that will allow this robots to safely explore a remote environment.</p>
+			<img class="featurette-image img-responsive " src="./images/Bert-and-Ernie.jpg">
 			<p class="lead">Using a combination of basic electronics, Raspberry Pis and Arduinos, you will learn and use <a href="http://en.wikipedia.org/wiki/Agile_software_development" target="_blank">Agile <i class="fa fa-external-link"></i></a> tools and techniques to great some great software that will enable the robots to autonomously explore a hostile environment.</p>
 		</div>
 
@@ -184,7 +184,7 @@
 		$(function(){
 
 			$(".headline .container").typed({
-				strings: ["<h1><span style='color:red'>> </span>Easter_School;</h1><h2><span style='color:red'>> </span>mission_to('Mars');</h2><h3><span style='color:red'>> </span>start = 30-March-2015;<h3><span style='color:red'>> </span>end = 2-April-2015;</h3>"],
+				strings: ["<h1><span style='color:red'>> </span> <span style='color:blue'> new </span> Easter_School{};</h1><h2><span style='color:red'>> </span>mission_to('Mars');</h2><h3><span style='color:red'>> </span>start = 30-March-2015;<h3><span style='color:red'>> </span>end = 2-April-2015;</h3>"],
 				typeSpeed: 10,
 				backDelay: 500,
 				loop: false,
@@ -194,11 +194,6 @@
 				callback: function(){ foo(); },
 				resetCallback: function() { newTyped(); }
 			});
-
-			$(".reset").click(function(){
-				$(".headline .container").typed('reset');
-			});
-
 		});
 
 		function newTyped(){ /* A new typed object */ }

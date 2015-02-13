@@ -17,7 +17,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	min-height: 600px;
+	min-height: 650px;
 }
 
 .headline {
@@ -25,7 +25,7 @@ body {
 }
 
 .headline h1 {
-    font-size: 100px;
+    font-size: 90px;
     background: #fff;
     background: rgba(255,255,255,0.3);
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .headline h3 {
-    font-size: 40px;
+    font-size: 50px;
     background: #fff;
     background: rgba(255,255,255,0.3);
 }
@@ -71,7 +71,7 @@ footer {
 		min-height: 665px;
 	}
     .headline h1 {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .headline h2 {
@@ -105,7 +105,7 @@ footer {
     }
 	
     .headline h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .headline h2 {
@@ -151,7 +151,7 @@ footer {
 	}
 
     .headline h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .headline h2 {
@@ -173,11 +173,11 @@ footer {
 	}
 	
 	.headline h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .headline h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 	
 	.headline h3 {
@@ -209,11 +209,11 @@ footer {
 	}
 	
 	.headline h1 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .headline h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 	
 	.headline h3 {
