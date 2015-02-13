@@ -64,6 +64,8 @@ body {
 
 footer {
     margin: 50px 0;
+	background-color: #383838;
+	background-color: rgba(56,56,56,1);
 }
 
 @media(max-width:1200px) {
