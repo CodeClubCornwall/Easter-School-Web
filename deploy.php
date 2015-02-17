@@ -28,6 +28,7 @@ if ($_SERVER['HTTP_X_GITHUB_EVENT'] == 'push') {
   
   if( file_exists($LOCAL_REPO) ) {  
     // If there is already a repo, just run a git pull to grab the latest changes
+	echo shell_exec("cd {$LOCAL_REPO} && git reset --hard origin/master");
     echo shell_exec("cd {$LOCAL_REPO} && git pull 2>&1 ");
 
     die("done " . mktime());
