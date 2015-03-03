@@ -110,6 +110,11 @@ p {
 	padding-left:10px;
 }
 
+.video {
+	width:852px;
+	height:679px;
+}
+
 @media(max-height:600px)
 {
 	.modal-body{
