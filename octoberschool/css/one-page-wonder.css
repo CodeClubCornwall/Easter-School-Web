@@ -1,0 +1,375 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+avalible google fonts: font-family: 'VT323', ;
+
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+	h1, h2, h3, h4, h5{
+		font-family: 'VT323'
+	}
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: url('../images/Mars-Surface.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	min-height: 550px;
+}
+
+.headline {
+    padding: 120px 0;
+	font-family: 'VT323'
+}
+
+.headline h1 {
+    font-size: 90px;
+    background: #fff;
+    background: rgba(255,255,255,0.3);
+	font-family: 'VT323'
+}
+
+.headline h2 {
+    font-size: 80px;
+    background: #fff;
+    background: rgba(255,255,255,0.3);
+	font-family: 'VT323'
+}
+
+.headline h3 {
+    font-size: 50px;
+    background: #fff;
+    background: rgba(255,255,255,0.3);
+	font-family: 'VT323'
+}
+
+.featurette-divider {
+    margin: 80px 0 0 0;
+}
+
+.featurette {
+    overflow: hidden;
+	padding-top: 70px;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+	font-family: 'VT323'
+}
+
+footer {
+    margin: 0;
+	background-color: #383838;
+	background-color: rgba(56,56,56,1);
+}
+
+.modal-body{
+	height:600px;
+}
+
+#super-hero img {
+	float:right;	
+}
+
+p {
+	font-size:110%;
+}
+.navbar-nav li a {
+	font-family: 'VT323';
+		font-size:140%;
+}
+.navbar-brand{
+	padding-top:0;
+}
+.navbar-brand img{
+	padding-top:0;
+	width:100px;
+	height:100px;
+}
+.headline .container h1, 
+.headline .container h2,
+.headline .container h3,
+.headline .container h4  {
+	margin:0;
+	padding-left:10px;
+}
+
+.video {
+	width:852px;
+	height:679px;
+}
+
+@media(max-height:600px)
+{
+	.modal-body{
+		height:500px;
+	}		
+}
+
+@media(max-height:500px)
+{
+	.modal-body{
+		height:400px;
+	}		
+}
+
+@media(max-height:400px)
+{
+	.modal-header{
+		height:20px;
+	}
+	.modal-body{
+		height:300px;
+	}		
+}
+
+@media(max-width:1200px) {
+	.header-image {
+		min-height: 665px;
+	}
+    .headline h1 {
+        font-size: 80px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+	
+	.headline h3 {
+        font-size: 40px;
+    }
+	
+	.featurette {    	
+		padding-top: 30px;
+	}
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+	.headline {
+        padding: 50px 0 25px 0;
+    }
+	
+    .headline h1 {
+        font-size: 50px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+	
+	.headline h3 {
+        font-size: 24px;
+    }
+	
+	.header-image {
+		min-height: 550px;
+	}
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+	
+	.featurette {    	
+		padding-top: 30px;
+	}
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+	.navbar-nav{
+		margin-left:50px;	
+	}
+	.navbar-brand img{
+		padding-top:0;
+		width:50px;
+		height:50px;
+	}
+	.navbar-brand{
+		height: 0px;
+		padding: 0px 15px;
+	}	
+	
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+	
+	.header-image {
+		min-height: 300px;
+	}
+
+    .headline h1 {
+        font-size: 50px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+	
+	.headline h3 {
+        font-size: 24px;
+    }
+	
+	.featurette {    	
+		padding-top: 30px;
+	}
+	
+	.featurette-image {
+        max-width: 25%;
+    }
+
+}
+
+@media(max-width:500px) {
+    .headline {
+        padding: 25px 0 25px 0;
+    }
+
+    .header-image {
+		min-height: 300px;
+	}
+	
+	.headline h1 {
+        font-size: 28px;
+    }
+
+    .headline h2 {
+        font-size: 22px;
+    }
+	
+	.headline h3 {
+        font-size: 18px;
+    }
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+	.featurette {    	
+		padding-top: 30px;
+	}
+}
+
+@media(max-width:375px) {
+	
+	.header-image {
+		min-height: 400px;
+	}
+	
+	.headline h1 {
+        font-size: 26px;
+    }
+
+    .headline h2 {
+        font-size: 22px;
+    }
+	
+	.headline h3 {
+        font-size: 18px;
+    }
+	
+	.featurette {    	
+		padding-top: 30px;
+	}
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
